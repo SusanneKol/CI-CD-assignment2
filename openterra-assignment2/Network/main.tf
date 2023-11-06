@@ -61,3 +61,7 @@ resource "azurerm_network_interface" "nic-ot" {
     public_ip_address_id          = azurerm_public_ip.pip-ot.id
   }
 }
+
+# hello 
+
+#endring
