@@ -17,8 +17,7 @@ resource "random_string" "random_string" {
 
 
 resource "azurerm_storage_account" "sa-ot" {
- # name                     = "${lower(var.rg_openTerra.name)}${random_string.random_string.result}"
-  name                     = "${lower(var.rg_openTerra.name)}${substr(random_string.random_string.result, 0, 12)}"
+  name                     = "${lower(var.rg_openTerra.name)}${random_string.random_string.result}"
   resource_group_name      = var.rg_openTerra.name
   location                 = var.rg_openTerra.location
   account_tier             = "Standard"
