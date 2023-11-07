@@ -9,7 +9,7 @@ provider "azurerm" {
 }
 
 resource "random_string" "random_string" {
-    length = 8
+    length = 7
     special = false
     upper = false
      
