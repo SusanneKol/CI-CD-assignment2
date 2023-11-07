@@ -8,14 +8,14 @@ There are four workspaces: dev, stage and prod.
 
 There are four branches in GitHub: main, dev, stage and prod. 
 
-In GitHub under Secrets, the environmental variable are stored. These are used by the GitHub workflow to access Azure. 
+In GitHub under Secrets, the environmental variable are stored. These are used by the GitHub workflow to access the Azure resources. 
 
 The terraform.tfvars file contain all the values for the input variables. 
-This file is not available from Github.
-
- 
-The content of this file is uploaded to the GitHub folder CI-CD-assignmnet 2, 
+This file is not available from Github. The content of this file is uploaded to the GitHub folder CI-CD-assignmnet 2, 
 under Secrets and variables. Where it is stored with the other azure secrets. 
+
+<img width="628" alt="image" src="https://github.com/SusanneKol/CI-CD-assignment2/assets/142806442/e04d1ae5-3a03-4cee-8eea-3862793424dd">
+
 
 ## workflow GitHub
 
