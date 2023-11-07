@@ -15,3 +15,5 @@ This file is not available from Github. The file probably contains too many vari
 The content of this file is uploaded to the GitHub folder CI-CD-assignmnet 2, 
 under Secrets and variables. Where it is stored with the other azure secrets. 
 
+
+![image](https://github.com/SusanneKol/CI-CD-assignment2/assets/142806442/79c2cfd0-1227-41da-90b2-694b32833892)
