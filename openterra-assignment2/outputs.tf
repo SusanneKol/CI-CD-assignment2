@@ -3,5 +3,5 @@ output "private_ip" {
 }
 
 output "public_ip" {
-    value = module.VirtuelMachine.vm_out_pip
+  value = module.VirtuelMachine.vm_out_pip
 }
