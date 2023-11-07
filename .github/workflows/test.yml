@@ -85,11 +85,11 @@ jobs:
       # Generate a plan for Terraform changes
       - name: Terraform plan
         id: plan
-        run: terraform plan -var-file="openterra.tfvars"
+        run: terraform plan 
         working-directory: ${{ env.WORKING_DIR }}
       
       - name: Terraform apply prod
-        run: terraform apply -var-file="openterra.tfvars" -auto-approve
+        run: terraform apply -auto-approve
         working-directory: ${{ env.WORKING_DIR }}
 
 
