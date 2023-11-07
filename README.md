@@ -17,6 +17,8 @@ under Secrets and variables. Where it is stored with the other azure secrets.
 
 ## workflow GitHub
 
+To trigger the workflow, set up in GitHub. Make changed to the code and push to git in the folder'openterra-assignment2/'
+
 
 <img width="929" alt="image" src="https://github.com/SusanneKol/CI-CD-assignment2/assets/142806442/b75a6aa7-9a30-4d1a-b204-11136fdeefdf">
 
