@@ -12,13 +12,14 @@ In GitHub under Secrets, the environmental variable are stored. These are used b
 
 The terraform.tfvars file contain all the values for the input variables. 
 This file is not available from Github.
-![Alt text](image.png)
 
  
 The content of this file is uploaded to the GitHub folder CI-CD-assignmnet 2, 
 under Secrets and variables. Where it is stored with the other azure secrets. 
 
 ## workflow GitHub
+
+the workflow file is the test.yml file
 
 To trigger the workflow, set up in GitHub. Make changed to the code and push to git in the folder'openterra-assignment2/'
 
