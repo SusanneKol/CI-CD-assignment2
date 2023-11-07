@@ -25,4 +25,7 @@ under Secrets and variables. Where it is stored with the other azure secrets.
 
 <img width="571" alt="image" src="https://github.com/SusanneKol/CI-CD-assignment2/assets/142806442/f37ed199-dfc7-4261-ae81-3740a1f45ead">
 
+Error: terraform deploy
+
+<img width="914" alt="image" src="https://github.com/SusanneKol/CI-CD-assignment2/assets/142806442/ec7ea87a-db29-455e-8aea-d5a9db85b008">
 
