@@ -80,7 +80,13 @@ jobs:
         id: validate
         run: terraform validate
         working-directory: ${{ env.WORKING_DIR }}
-      
+
+      - name: Create terraform.tfvars
+        run: |
+          echo "$TERRAFORM_TFVARS" > terraform.tfvars
+        env:
+          TERRAFORM_TFVARS: ${{ secrets.TERRAFORM_TFVARS }}
+        working-directory: ${{ env.WORKING_DIR }}
 
       # Generate a plan for Terraform changes
       - name: Terraform plan
