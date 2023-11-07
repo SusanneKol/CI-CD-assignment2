@@ -31,3 +31,11 @@ Deployment of prod must be aproved by a minimum of one person
 All test complete: deployment of terraform environment
 <img width="922" alt="image" src="https://github.com/SusanneKol/CI-CD-assignment2/assets/142806442/9d248e64-53a6-49fc-a8db-1954dfe4e0d4">
 
+
+### Things to improve
+
+- Add tflint and tfsec test to dev stage. 
+- Run three different environment in Azure
+
+code
+- remove som of the variables from 
