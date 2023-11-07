@@ -1,12 +1,14 @@
 # CI-CD-assignment2
 
-This assignment continues on the work from assignment 1, with additional changes. 
+This assignment continues on the work from assignment 1, with additional changes made. 
 
 A public GitHub project is launched with code, workflows and a README.md file. 
 
 There are four workspaces: dev, stage and prod.
 
 There are four branches in GitHub: main, dev, stage and prod. 
+
+In GitHub under Secrets, the environmental variable are stored. These are used by the GitHub workflow to access Azure. 
 
 
 The terraform.tfvars file contain all the values for the input variables. 
