@@ -20,7 +20,7 @@ variable "vn_name" {
 
 variable "sn_name" {
   type        = string
-  description = "Name of the subnet"
+  description = "Name of the subnet of the net"
   default     = ""
 }
 
