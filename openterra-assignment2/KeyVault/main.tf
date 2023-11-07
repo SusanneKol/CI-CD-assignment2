@@ -56,3 +56,5 @@ resource "azurerm_key_vault_secret" "kvs_ot" {
   key_vault_id = azurerm_key_vault.kv_ot.id
 }
 
+#added comment
+
