@@ -36,7 +36,7 @@ jobs:
         id: validate
         run: terraform validate
         working-directory: ${{ env.WORKING_DIR }}
-      
+        
 
 
 
